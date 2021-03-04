@@ -1,5 +1,5 @@
 <?php session_start();
-include ('middlewares/session.php');
+
 include "conexion.php";
 $users=mysqli_query(con(), "SELECT * from users");
 
