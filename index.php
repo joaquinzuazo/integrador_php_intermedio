@@ -7,12 +7,7 @@ include ('helpers/header.php');
     <main class='main'>
         <div class="login">
             <form class='login-form' action="validar.php" method="POST">
-                <h2>Login:</h2>
-                <?php
-                //echo password_hash("dm5456", PASSWORD_DEFAULT)."<br>";
-                //echo password_hash("fg8965", PASSWORD_DEFAULT);*/
-                ?>
-              
+                <h2>Login:</h2>     
                 <input type="text" name="user" id="user" placeholder="Ingrese su DNI">
                 <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
                 <input type="text" name="captcha" id="captcha" placeholder="Ingrese el captcha">
