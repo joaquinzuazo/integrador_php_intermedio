@@ -1,4 +1,4 @@
-# Integradora - PHP Intermedio
+# Integrador - PHP Intermedio
 
 Proyecto para Centro de de e-Learning UTN FRBA - Curso PHP y MySQL.
 
