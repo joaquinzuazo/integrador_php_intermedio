@@ -7,7 +7,7 @@ include ('helpers/header.php');
     <main class='main'>
         <div class="cliente">
             <div class="cliente-menu">
-                <img src="acceso_clientes.png" alt="">
+                <img src="/images/acceso_clientes.png" alt="">
                 <h2>Bienvenido <?php echo $_SESSION['usuario']; ?></h2>
                 <p id="info">En esta sección encontrará información sobre sus pedidos y compras.</p>
                 <div class='cliente-button'>
