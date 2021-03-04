@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form h2{
+    font-size: 1.5em;
+}
+
+.login-form h2, .login-form input, .login-form button, .login-form p {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+.login-form p{
+    font-size: 0.6em;
+    color: tomato;
+}
+
+.cliente{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.cliente-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cliente-menu h2{
+    font-size: 1.5em;
+}
+
+.cliente-menu h2, .cliente-menu input, .cliente-form button, .cliente-menu p {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+.cliente-menu p{
+    font-size: 0.6em;
+    color: tomato;
+}
+
+.cliente-menu a{
+    margin:20px;
+    font-size: 0.8em;
+}
+
+.cliente-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cliente-form button:hover{
+    background-color: #85afec;
+    color: white;
+}
+
+.session-form button{
+    background-color: white;
+    border: none;
+    width: 100%;
+    margin-top: 40px;
+    color: #a0a0a0;
+    font-size: 0.8em;
+}
+
+.session-form button:hover{
+    color: #85afec;
+}
+
+.main-pedido{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.main-pedido h2{
+    font-size: 1.5em;
+}
+
+.main-pedido a{
+    margin:20px;
+    font-size: 0.8em;
+}
+
+.pedido-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pedido-form input, .pedido-form button, .pedido-form p {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+.pedido-form p{
+    font-size: 0.6em;
+    color: tomato;
+}
+
+.tabla-contenido-dato{
+    margin: 10px;
+}
+
+.titulo{
+    background-color: #85afec;
+    color: white;
+}
+
+.tabla-contenido-dato td{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-contenido-dato img{
+    width: 30px;
+}
+
+.main-pedido small{
+    font-size: 0.6em;
+    background-color: rgb(211, 211, 211);
+}
+
+.main-pedido .enlace{
+    margin-top: 40px;
+}
+
+
+
+
+#info{
+    color: black;
+    font-size: 1em;
+}
+
+#inicio{
+    font-size: 1em;
+}
+
+#inicio a{
+    text-decoration: none;
+    color: teal;
+}
+
+#button{ 
+    width: 90%;
+}
